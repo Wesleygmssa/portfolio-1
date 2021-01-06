@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://use.fontawesome.com/d273e3bcc0.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="16x16" href="./images/link-img.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>carvalhox | Front-end Developer</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-icon">
+            <img src="./images/navbar-icon.png" alt="Ícone de uma menina">
+        </div>
+
+        <div class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <a href="#home"><li>Home</li></a>
+                <a href="#projects"><li>Projetos</li></a>
+                <a href="#contact"><li>Contato</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="l-main" id="home">
+        <div class="intro">
+            <p>Olá, eu sou</p>
+            <h1>LAÍSE CARVALHO</h1>
+            <p>Front-end Developer</p>
+            <a href="#contact">Vamos conversar?</a>
+        </div>
+        <div class="bg-image">
+            <img src="./images/hero-image.png" alt="Imagem de menina programando">
+        </div>
+    </main>
+
+    <section class="l-projects" id="projects">
+        <h2>Projetos</h2>
+        
+        <div class="projects-list">
+            <div class="project">
+                <img src="./images/project-1.png" class="project-img">
+
+                <div class="project-info">          
+                    <a href="https://myownlinktree.netlify.app/" target="_blank"><img src="./images/link-img.png" alt=""> Website</a>     
+                    <a href="https://github.com/carvalhox/my-own-linktree" target="_blank"><img src="./images/github-link.png" alt=""> Repositório</a>               
+                </div>
+            </div>
+    
+            <div class="project">               
+                <img src="./images/project-2.png" class="project-img">
+
+                <div class="project-info">          
+                    <a href="https://introformsignup.netlify.app/" target="_blank"><img src="./images/link-img.png" alt=""> Website</a>     
+                    <a href="https://github.com/carvalhox/FrontEndMentor-challenges/tree/master/intro-component-with-signup-form-master" target="_blank"><img src="./images/github-link.png" alt=""> Repositório</a>               
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="l-contact" id="contact">
+        <h2>Contato</h2>
+
+        <form action="https://formspree.io/f/xwkwwwoj" method="POST" class="l-form">         
+            <input type="text" name="name" placeholder="Seu nome..." required>
+            <input type="email" name="_replyto" placeholder="Seu e-mail..." required>
+            <textarea name="message" cols="15" rows="4"
+            placeholder="Digite sua mensagem aqui..." required></textarea>
+            <div>
+                <input type="submit" value="Enviar mensagem" class="send-message">  <input type="reset" value="Limpar campos" class="reset-fields">
+            </div>
+        </form>
+
+        <div class="social-links">
+            <a href="https://github.com/carvalhox" target="_blank">
+                <img src="./images/github.png" alt="GitHub">
+            </a>
+
+            <a href="https://www.linkedin.com/in/carvalhox/"  target="_blank">
+                <img src="./images/linkedin.png" alt="LinkedIn">
+            </a>
+
+            <a href="https://discordapp.com/users/429853298644746253"  target="_blank">
+                <img src="./images/discord.png" alt="Discord">
+            </a>
+        </div>
+    </section>
+    
+    <footer class="l-footer">
+        <p>Desenvolvido com &#128420; por < carvalhox / ></La> </p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
